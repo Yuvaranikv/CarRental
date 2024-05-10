@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ACME Car Rental</h1>
+    <label for="lblpDate">Pickup Date:</label>
+    <input type="text" id="pDate" name="pDate"><br><br>
+    <label for="lblNoofDays">No of Days:</label>
+    <input type="text" id="noofDays" name="noofDays"><br><br>
+
+
+    <input type="checkbox" id="tollTagChkbox">
+    Electronic Toll Tag ($3.95/day plus tolls)<br>
+    <input type="checkbox" id="gpsChkbox">
+    GPS ($4.95/day)<br>
+    <input type="checkbox" id="roadsideChkbox">
+    Roadside Assistance ($2.95/day)<br>
+
+    <label for="lblpolicy">Under 25</label><br><br>
+
+    <input type="radio" name="policy" id="noRadioBtn" value="auto" > No<br>
+    <input type="radio" name="policy" id="YesRadioBtn" value="home"> Yes<br><br><br>
+
+    <input id="estimateTotalCostBtn" type="button" value="Estimate Total Cost" />  <br><br>
+
+     <div id="carRentaldiv"> Car Rental : $ 29.99 per day</div>
+    Options : <div id="Optionsdiv">            </div>
+    Under 25 surcharge : <div id="under25div"></div>
+   Total due : <div id="totalDuediv"></div>
+   <script src="/scripts/index.js"></script>
+</body>
+</html>
+
